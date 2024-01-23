@@ -12,9 +12,9 @@
     <nav>
 
     </nav>
-    <header class="mx-32">
+    <header class="mx-2  lg:mx-32">
       <div class="div">
-        <div class="carousel 	">
+        <div class="carousel ">
 
             <!-- First slider -->
             <div id="slide1" class="carousel-item relative w-full relative">
@@ -24,10 +24,11 @@
                 <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
                
               </div>
-              <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] ">
+              <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] lg:[margin-left:51%] lg[margin-top:30%] hidden lg:inline  ">
                 <h3 class="text-white text-2xl">Meet all the heroes from the field</h3>
                 <p class="text-zinc-400 text-sm text-current py-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
               </div>
+              
             </div> 
  
             <!-- Second slider -->
@@ -38,7 +39,7 @@
                   <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
                  
                 </div>
-                <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] ">
+                <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] hidden lg:inline  ">
                   <h3 class="text-white text-2xl">Meet all the heroes from the field</h3>
                   <p class="text-zinc-400 text-sm text-current py-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
@@ -52,7 +53,7 @@
                   <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
                  
                 </div>
-                <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] ">
+                <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] hidden lg:inline ">
                   <h3 class="text-white text-2xl">Meet all the heroes from the field</h3>
                   <p class="text-zinc-400 text-sm text-current py-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
@@ -66,7 +67,7 @@
                   <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
                  
                 </div>
-                <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] ">
+                <div class="absolute bg-black w-2/5 p-5 rounded-md border-0	[margin-left:51%] [margin-top:30%] hidden lg:inline ">
                   <h3 class="text-white text-2xl">Meet all the heroes from the field</h3>
                   <p class="text-zinc-400 text-sm text-current py-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
@@ -74,20 +75,27 @@
                
             </div>
           </div>
-      </div>
 
+         
+      </div>
+     <div class="responsive inline lg:hidden xl:hidden 2xl:hidden">
+      <div class=" bg-black min-w-1 my-1 p-5 rounded-md border-0	 ">
+        <h3 class="text-white text-2xl">Meet all the heroes from the field</h3>
+        <p class="text-zinc-400 text-sm text-current py-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+     </div>
     </header>
     <main>
 
       <!-- Professional Section Start -->
-      <section class="mx-32 my-20">
+      <section class="mx-4 my-4  lg:my-20 lg:mx-32">
         <div class="div ">
           <h2 class="text-center text-5xl font-bold my-6">Professional Hockeys Club</h2>
           <p class="text-center my-3 mb-20">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.<br> Purus urna in sit nullam proin. </p>
 
-          <div class="grid grid-cols-4 gap-4  ">
+          <div class="grid lg:grid-cols-4  sm:grid-cols-4 gap-4 md:grid-cols-2 ">
             <!-- Fist Items -->
-            <div class="p-5 items-center ">
+            <div class="p-5 items-center border-2 rounded-md shadow-2xl">
               <div class="flex justify-center">
                 <div class="radial-progress text-red-600 	" style="--value:87; --size:8rem; --thickness: 1rem;" role="progressbar">87%</div>
               </div>
@@ -96,7 +104,7 @@
             </div>
 
               <!-- Second Items -->
-            <div class="p-5 ">
+            <div class="p-5 items-center border-2 rounded-md shadow-2xl ">
               <div class="flex justify-center">
                 <div class="radial-progress text-emerald-500  ml-5 " style="--value:95; --size:8rem; --thickness: 1rem;" role="progressbar">95%</div>
               </div>
@@ -105,7 +113,7 @@
             </div>
 
             <!-- Three Items -->
-            <div class="p-5 ">
+            <div class="p-5 items-center border-2 rounded-md shadow-2xl">
               <div class="flex justify-center">
                 <div class="radial-progress text-yellow-400 " style="--value:90; --size:8rem; --thickness: 1rem;" role="progressbar">90%</div>
               </div>
@@ -114,7 +122,7 @@
             </div>
 
             <!-- Fours Items -->
-           <div class="p-5  ">
+           <div class="p-5 items-center border-2 rounded-md shadow-2xl">
             <div class="flex justify-center">
               <div class="radial-progress text-blue-500 " style="--value:80; --size:8rem; --thickness: 1rem;" role="progressbar">80%</div>
             </div>
@@ -127,8 +135,33 @@
       </section>
       <!-- Professional Section End -->
 
-      <section>
-      
+      <section class=" mx-4 my-4 ms:mx-32 ms:my-20 lg:my-20 lg:mx-32">
+        <div class=" gap-4  ms:flex lg:flex md:flex  inline ">
+          <div class="flex-1 opacity-95 relative mb-2 ">
+            <div class="contrast-50">
+              <img src="Images/2.png" alt="" class="w-full">
+            </div>
+            <div class="p-4 absolute [margin-top:-64%] ms:[margin-top:-40%] md:[margin-top:-65%] lg:[margin-top:-40%] ">
+              <h3 class="text-2xl my-2 text-white">Junior Program</h3>
+              <p class="my-1 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="rounded-md	p-3	bg-red-700 text-cyan-50 my-3">Register Now</button>
+            </div>
+          </div>
+
+          <div class="flex-1 opacity-95	relative">
+            <div class="contrast-50 ">
+              <img src="Images/2.png" alt="" class="w-full">
+            </div>
+            <div class="p-4 absolute [margin-top:-64%] ms:[margin-top:-0%] md:[margin-top:-65%] lg:[margin-top:-40%]">
+              <h3 class="text-2xl my-2 text-white">Junior Program</h3>
+              <p class="my-1 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class=" rounded-md	p-3	bg-red-700 text-cyan-50 my-3">Register Now</button>
+            </div>
+          </div>
+
+        </div>
       </section>
     </main>
     <footer>
